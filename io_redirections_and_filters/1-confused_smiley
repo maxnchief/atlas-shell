@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e ""(\xc3\x94\ao)'"
+echo -e "\"(\xc3\x94\ao)'"
