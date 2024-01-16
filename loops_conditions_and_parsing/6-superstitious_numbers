@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+count=1
+while [ $count -le 20 ]
+do
+	if [ $count -eq 4 ]; then
+		echo -e "4\nbad luck from China"
+	elif [ $count -eq 9 ]; then 
+		echo -e "9\nbad luck from Japan"
+	elif [ $count -eq 17 ]; then 
+		echo -e "17\nbad luck from Italy"
+	else
+		echo "$count"
+	fi
+	((count++))
+done
