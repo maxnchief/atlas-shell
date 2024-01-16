@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# use if to establish a specific imput then enter the alternate command. use else to imput the standard command. and i dont really understand but from what I gather fi tells the done command to stop freaking out and just do it's job
+count=1
+while [ $count -le 10 ]
+do
+        if [ $count -eq 9 ]; then 
+		echo -e "Best School \n Hi"
+	else
+	
+	echo "Best School"
+      
+	fi
+	((count++))
+done
