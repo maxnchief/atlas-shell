@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# while uses a count to lay out less than or equal to 10. do echo with an addition count
+count=0 
+while [ $count -lt 10 ]
+do
+	echo "Best School"
+       ((count++))
+done
