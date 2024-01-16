@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# I 10 times then add $i to the echoed text
+# I value set to repeat 10 times need two + for additon
 for ((i=1; i<=10; i++))
 do
-  echo "Best School $i"
+  echo "Best School"
 done
 
 
