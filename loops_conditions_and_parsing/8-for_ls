@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
-for i in $( ls )
+for i in ( $ls )
 do
-	echo $i | cut -d "-" -f2
+	echo "$i"| cut -d "-" -f2
 
 done
