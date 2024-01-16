@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # same concept but use gt as 'gets to'
-count=0
+count=1
 until [ $count -gt 10 ] 
 do
 	echo "Best School"
