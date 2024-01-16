@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#same concept as 4 but with extra elif statements and a regular count instead of a repeating phrase
 count=1
 while [ $count -le 20 ]
 do
