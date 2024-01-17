@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#
+counter=1
+end=100
+while [ "$counter" -le "$end" ]; do
+	if [ $((counter % 3)) -eq 0 ] && [ $((counter % 5)) -eq 0 ]; then
+		echo "FizzBuzz"
+	elif [ $((counter % 5)) -eq 0 ]; then
+		echo "Buzz"
+	elif [ $((counter % 3)) -eq 0 ]; then
+		echo "Fizz"
+	else
+		echo "$counter"
+	fi
+	((counter ++))
+done
