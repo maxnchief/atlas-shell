@@ -1,0 +1,12 @@
+#!/usr/bin/envbash
+#also stole this from chat gpt
+passwd_file="/etc/passwd"
+
+while IFS=: read -r username _ uid _ _ home _; do
+    # Display the desired information
+    echo "Username: $username"
+    echo "User ID: $uid"
+    echo "Home Directory: $home"
+    echo "------------------------"
+done < "$passwd_file"
+
